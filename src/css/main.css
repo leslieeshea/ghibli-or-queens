@@ -8,7 +8,7 @@ html {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 li {
@@ -23,11 +23,12 @@ ul {
 main {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
+    color: white;
 }
 
 h1 {
     font-family: 'Nanum Gothic', bold, sans-serif;
-    font-size: 37px;
+    font-size: 27px;
 }
 
 img {
