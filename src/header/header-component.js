@@ -11,3 +11,10 @@ export function makeHeader(isLink) {
 
     return template.content;
 }
+
+const headerSection = document.getElementById('header-section');
+
+export default function loadHeader(isLink) {
+    const dom = makeHeader(isLink);
+    headerSection.appendChild(dom);
+}
