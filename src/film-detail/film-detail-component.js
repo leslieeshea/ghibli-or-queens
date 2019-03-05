@@ -20,3 +20,12 @@ export function makeFilmDetail(film) {
 
     return template.content;
 }
+
+const filmDetailSection = document.getElementById('film-detail');
+
+export default function loadFilmDetail(films) {
+    films.forEach(film => {
+        const dom = makeFilmDetail(film);
+        filmDetailSection.appendChild(dom);
+    });
+}
