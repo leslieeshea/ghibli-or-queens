@@ -1,0 +1,23 @@
+dl {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: visible;
+}
+
+dt {
+    flex: 0 0 20%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: pink;
+    text-align: right;
+    padding: 5px;
+}
+
+dd {
+    flex: 0 0 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px;
+}
