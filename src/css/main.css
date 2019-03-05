@@ -1,23 +1,35 @@
-dl {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    width: 100%;
-    overflow: visible;
+html {
+    background: url('../../assets/ghibli-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-dt {
-    flex: 0 0 20%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    background: pink;
-    text-align: right;
-    padding: 5px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-dd {
-    flex: 0 0 75%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    padding: 5px;
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+ul {
+    padding: 0px;
+}
+
+main {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Nanum Gothic', bold, sans-serif;
+    font-size: 37px;
+}
+
+img {
+    width: 300px;
 }
