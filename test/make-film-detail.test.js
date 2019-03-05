@@ -13,7 +13,7 @@ const film = {
     rt_score: 95
 };
 
-test('make description list for each film', assert => {
+test('make template for details on each film', assert => {
     const result = makeFilmDetail(film);
     const expected = /*html*/
     `<dl>
