@@ -1,9 +1,10 @@
 export function makeHeader(isLink) {
     const html = /*html*/
     `<section id="header-section">
-        <img src="assets/ghibli-logo.png">
+        <img src="../../assets/ghibli-logo.png">
         <h1>Films</h1>
-        ${isLink ? `<a href="index.html" id="all-films-link">All Films</a>` : ''}
+        ${isLink ? `<a href="index.html" id="all-films-link">
+        All Films</a>` : ''}
     </section>`;
 
     const template = document.createElement('template');
@@ -12,9 +13,9 @@ export function makeHeader(isLink) {
     return template.content;
 }
 
-const headerSection = document.getElementById('header-section');
+const header = document.getElementById('header');
 
 export default function loadHeader(isLink) {
     const dom = makeHeader(isLink);
-    headerSection.appendChild(dom);
+    header.appendChild(dom);
 }

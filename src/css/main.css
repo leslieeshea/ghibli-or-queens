@@ -26,9 +26,17 @@ main {
     color: white;
 }
 
+#header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 h1 {
     font-family: 'Nanum Gothic', bold, sans-serif;
-    font-size: 27px;
+    font-size: 40px;
+    margin: 0px;
+    margin-left: 8px;
 }
 
 img {
