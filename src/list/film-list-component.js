@@ -9,3 +9,12 @@ export function makeFilmList(film) {
 
     return template.content;
 }
+
+const filmList = document.getElementById('film-list');
+
+export default function loadFilms(films) {
+    films.forEach(film => {
+        const dom = makeFilmList(film);
+        filmList.appendChild(dom);
+    });
+}
